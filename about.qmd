@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Garik"
 ---
 
 About this site

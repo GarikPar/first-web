@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 0f369c9c-9a60-45c5-ad3d-ec0b601d006c
+      url: 'https://gar.quarto.pub/a-new-website'
