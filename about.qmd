@@ -1,5 +1,5 @@
 ---
-title: "Garik"
+title: "About"
 ---
 
-About this site
+[Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info)
