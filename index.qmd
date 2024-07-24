@@ -1,5 +1,5 @@
 ---
-title: "My First Website"
+title: "Home Page"
 execute: 
   echo: false
 ---
@@ -7,14 +7,14 @@ execute:
 ```{r}
 #| message: false
 #| label: setup
-#| 
+
 library(tidyverse)
 library(knitr)
 ```
 
 ```{r}
 #| label: diamonds-plot
-#| 
+
 knitr::include_graphics("size_v_weight.png")
 ```
 
