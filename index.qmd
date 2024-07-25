@@ -21,9 +21,9 @@ library(knitr)
 &nbsp;&nbsp;&nbsp;&nbsp; Understanding the connections between hot weather, humidity, atmospheric pressure, and air composition is crucial for several reasons. First, it can enhance our ability to predict weather patterns and extreme events, aiding in disaster preparedness and mitigation. Second, it provides insights into air quality, which is vital for public health, especially in urban areas like Yerevan. Poor air quality can exacerbate respiratory conditions and other health issues. Lastly, this knowledge can inform environmental policies and actions to improve overall quality of life and sustainability in the region.
 
 ```{r}
-#| label: diamonds-plot
+#| label: temperature-plot
 
-knitr::include_graphics("size_v_weight.png")
+knitr::include_graphics("size_v_temp.png")
 
 ```
 

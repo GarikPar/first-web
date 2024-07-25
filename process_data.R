@@ -7,14 +7,18 @@ vazgen <- read_csv("vazgen.csv")
 #merged <- rbind(vazgen, maralik)
 
 
+
 temp_vazgen <- vazgen|>
   select(time, temperature)|>
    arrange(desc(temperature))
 
 temp_plot <- vazgen|>
   ggplot(mapping = aes(x = time, y = temperature, color = device)) +
-  geom_line(na.rm = TRUE, color = "#D55E00") +
-  geom_smooth(na.rm = TRUE)
+  #geom_line(na.rm = TRUE, color = "#D55E00") +
+  geom_smooth(na.rm = TRUE, color = "#D55E00") + 
+  labs(title = "Temperature in Yerevan from November 2023 to July 2024",
+       x = "Months",
+       y = "Temperature")
  
 
 
@@ -26,10 +30,10 @@ hum_vazgen <- vazgen|>
 
 hum_plot <- vazgen|>
   ggplot(mapping = aes(x = time, y = humidity, color = "blue")) +
-  geom_line(na.rm = TRUE, color = "steelblue") +
-  geom_smooth(na.rm = TRUE)
+  #geom_line(na.rm = TRUE, color = "steelblue") +
+  geom_smooth(na.rm = TRUE, color = "steelblue")
 
-print(hum_plot)
+#print(hum_plot)
 
 press_vazgen <- vazgen|>
   select(time, pressure)|>
@@ -37,10 +41,10 @@ press_vazgen <- vazgen|>
 
 press_plot <- vazgen|>
   ggplot(mapping = aes(x = time, y = pressure, color = device)) +
-  geom_line(na.rm = TRUE, color = "orange") +
-  geom_smooth(na.rm = TRUE)
+  #geom_line(na.rm = TRUE, color = "orange") +
+  geom_smooth(na.rm = TRUE, color = "orange")
 
-print(press_plot)
+#print(press_plot)
 
 pm1_vazgen <- vazgen|>
   select(time, pm1)|>
@@ -48,8 +52,8 @@ pm1_vazgen <- vazgen|>
 
 pm1_plot <- vazgen|>
   ggplot(mapping = aes(x = time, y = pm1, color = device)) +
-  geom_line(na.rm = TRUE, color = "black") +
-  geom_smooth(na.rm = TRUE)
+  #geom_line(na.rm = TRUE, color = "black") +
+  geom_smooth(na.rm = TRUE, color = "black")
 
 #print(pm1_plot)
 
@@ -59,8 +63,8 @@ pm2_5_vazgen <- vazgen|>
 
 pm2_5_plot <- vazgen|>
   ggplot(mapping = aes(x = time, y = pm2_5, color = device)) +
-  geom_line(na.rm = TRUE, color = "#00AFBB") +
-  geom_smooth(na.rm = TRUE)
+ # geom_line(na.rm = TRUE, color = "#00AFBB") +
+  geom_smooth(na.rm = TRUE, color = "#00AFBB")
 
 #print(pm2_5_plot)
 
@@ -74,6 +78,8 @@ pm10_plot <- vazgen|>
   geom_smooth(na.rm = TRUE, color = "#C4961A")
 
 #print(pm10_plot)
+
+write_rds(temp_plot, file = "clean_temp.rds")
 
 
 
