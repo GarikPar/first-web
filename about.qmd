@@ -2,4 +2,10 @@
 title: "About"
 ---
 
-[Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info)
+## About me
+My name is Garik and I am a  future CS student enthusiast with a passion for exploring environmental patterns. I enjoy analyzing complex datasets to uncover hidden insights. My hobbies include participating different sport activities, exploring interesting terms like this one, and studying meteorology. I'm passionate about sustainability and finding data-driven solutions to environmental challenges.
+
+
+## About this Website
+
+This website provides insights into environmental patterns in Yerevan, focusing on the relationships between weather conditions and air quality. Explore data visualizations, analysis methods, and conclusions drawn from comprehensive climate data.

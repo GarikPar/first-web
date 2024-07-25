@@ -1,3 +1,7 @@
 ---
-title: "data analysis"
+title: "Data analysis"
 ---
+
+## What my Data analysis show
+
+Our analysis highlights the intricate connections between weather variables and air quality, providing valuable insights for environmental monitoring and policy-making in Yerevan.

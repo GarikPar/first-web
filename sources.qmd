@@ -1,7 +1,28 @@
 ---
 title: "Sources"
+execute: 
+  echo: false
 ---
 
-An overview of sources used in my project.
+```{r}
+#| message: false
+#| label: setup
 
-These are my sources. Here are some challenges. Quarto websites are awesome.
+library(tidyverse)
+library(knitr)
+```
+
+## Where my data came from?
+&nbsp;&nbsp;&nbsp;&nbsp; The data for this project was sourced from Tumo Climate Net, a network that provides comprehensive data on weather conditions, including temperature, humidity, atmospheric pressure, and various air elements in Yerevan.
+
+
+## Why it’s valuable and good data?
+&nbsp;&nbsp;&nbsp;&nbsp; This data is valuable because it is accurate, reliable, and tailored to the specific environmental conditions of Yerevan. Its high quality and relevance make it an excellent resource for analyzing local climate patterns and air quality.
+
+
+## Concerns or important notes
+&nbsp;&nbsp;&nbsp;&nbsp; However, there are some concerns, such as potential data gaps or inconsistencies due to equipment issues or other errors. Additionally, the temporal resolution of the data may limit the detail of our analysis.
+
+## Link I used
+&nbsp;&nbsp;&nbsp;&nbsp; For more information and to access the raw data, please visit [Tumo Climate Net](https://climatenet.am/en/).
+
