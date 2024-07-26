@@ -1,7 +1,22 @@
 ---
 title: "Data analysis"
+execute: 
+  echo: false
 ---
 
 ## What my Data analysis show
 
 Our analysis highlights the intricate connections between weather variables and air quality, providing valuable insights for environmental monitoring and policy-making in Yerevan.
+
+
+```{r}
+#| label: temperature-plot
+
+knitr::include_graphics("size_v_temp.png")
+knitr::include_graphics("size_v_hum.png")
+knitr::include_graphics("size_v_press.png")
+knitr::include_graphics("size_v_pm1.png")
+knitr::include_graphics("size_v_pm2_5.png")
+knitr::include_graphics("size_v_pm10.png")
+
+```
