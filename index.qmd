@@ -13,7 +13,7 @@ library(knitr)
 ```
 
 ## Introduction
-&nbsp;&nbsp;&nbsp;&nbsp; In this data science project, we explore the relationships between hot weather, humidity, atmospheric pressure, and the concentration of various elements in the air, focusing on data collected in Yerevan. By analyzing these environmental factors, we aim to uncover patterns and correlations that can provide insights into how these variables interact in this specific region. Understanding these connections can help in predicting weather conditions, air quality, and potential impacts on human health and the environment. Through data analysis and visualization, we will reveal the intricate links between these crucial atmospheric components.
+&nbsp;&nbsp;&nbsp;&nbsp; In this data science project, we explore the relationships between temperature, humidity, atmospheric pressure, and the concentration of various elements in the air, focusing on data collected in Yerevan. By analyzing these environmental factors, we aim to uncover patterns and correlations that can provide insights into how these variables interact in this specific region. Understanding these connections can help in predicting weather conditions, air quality, and potential impacts on human health and the environment. Through data analysis and visualization, we will reveal the intricate links between these crucial atmospheric components.
 
 
 
