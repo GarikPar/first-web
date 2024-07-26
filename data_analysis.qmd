@@ -9,14 +9,73 @@ execute:
 Our analysis highlights the intricate connections between weather variables and air quality, providing valuable insights for environmental monitoring and policy-making in Yerevan.
 
 
+## Temperature
+
 ```{r}
 #| label: temperature-plot
 
 knitr::include_graphics("size_v_temp.png")
+
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp; This is the graph of temperature, which we compare with all of other graphs.
+
+## Humidity
+
+```{r}
+#| label: humidity-plot
+
+
 knitr::include_graphics("size_v_hum.png")
+
+
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp; This shows how humidity changed in Yerevan during last 8 months. Watching it we can surely say that it is opposite of temperature graph. 
+
+## Pressure
+
+```{r}
+#| label: pressure-plot
+
 knitr::include_graphics("size_v_press.png")
+
+
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp; Pressure is the environmental factor that changes a little bit during time, and it connects with others at least.
+
+## Air elements(pm1)
+
+```{r}
+#| label: pm1-plot
+
 knitr::include_graphics("size_v_pm1.png")
+
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp; Pm1 is one of the air quality showing parameteres, and its quantity is highly depend on temperature. When temperature is hot, its number decreases, and when its cold its number increases.
+
+## Air elements(pm2_5)
+
+```{r}
+#| label: pm2_5-plot
+
+
 knitr::include_graphics("size_v_pm2_5.png")
+
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp; This graph looks very similar to the last graph, but this tells us information about middle size elements in the air.
+
+## Air elements(pm10) 
+
+```{r}
+#| label: pm10-plot
+
 knitr::include_graphics("size_v_pm10.png")
 
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp; We called largest air elements pm10, and here is their last measurements (it looks like very similar to last two graphs).
+

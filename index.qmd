@@ -16,15 +16,17 @@ library(knitr)
 &nbsp;&nbsp;&nbsp;&nbsp; In this data science project, we explore the relationships between temperature, humidity, atmospheric pressure, and the concentration of various elements in the air, focusing on data collected in Yerevan. By analyzing these environmental factors, we aim to uncover patterns and correlations that can provide insights into how these variables interact in this specific region. Understanding these connections can help in predicting weather conditions, air quality, and potential impacts on human health and the environment. Through data analysis and visualization, we will reveal the intricate links between these crucial atmospheric components.
 
 
-
-## Why is this important?
-&nbsp;&nbsp;&nbsp;&nbsp; Understanding the connections between hot weather, humidity, atmospheric pressure, and air composition is crucial for several reasons. First, it can enhance our ability to predict weather patterns and extreme events, aiding in disaster preparedness and mitigation. Second, it provides insights into air quality, which is vital for public health, especially in urban areas like Yerevan. Poor air quality can exacerbate respiratory conditions and other health issues. Lastly, this knowledge can inform environmental policies and actions to improve overall quality of life and sustainability in the region.
-
 ```{r}
 #| label: temperature-plot
 
 knitr::include_graphics("size_v_temp.png")
 
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp; In this graph we see temperature measurements in Yerevan from November(2023) to July(2024). This is one of the graphs that I used for finding some relations between environmental factors that I mentioned above. 
+
+## Why is this important?
+&nbsp;&nbsp;&nbsp;&nbsp; Understanding the connections between hot weather, humidity, atmospheric pressure, and air composition is crucial for several reasons. First, it can enhance our ability to predict weather patterns and extreme events, aiding in disaster preparedness and mitigation. Second, it provides insights into air quality, which is vital for public health, especially in urban areas like Yerevan. Poor air quality can exacerbate respiratory conditions and other health issues. Lastly, this knowledge can inform environmental policies and actions to improve overall quality of life and sustainability in the region.
+
 
 
